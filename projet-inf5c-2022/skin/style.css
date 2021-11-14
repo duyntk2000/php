@@ -1,0 +1,32 @@
+body {
+  max-width: 1000px;
+  margin: auto;
+}
+
+.menu li {
+	list-style-type: none;
+}
+
+.image {
+  max-width: 400px;
+  max-height: 300px;
+}
+
+.image img {
+  width: 100%;
+  height: 90%;
+}
+
+main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+.description , .mod , .comment, .comment-zone, .apropos{
+  grid-column: span 2;
+}
+
+.menu {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr;
+}
